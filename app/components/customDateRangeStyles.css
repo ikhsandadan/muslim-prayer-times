@@ -1,0 +1,36 @@
+.custom-date-range-picker .rdrDefinedRangesWrapper .rdrStaticRangeLabel {
+    color: #000 !important;
+}
+
+.custom-date-range-picker .rdrDefinedRangesWrapper .rdrStaticRangeLabel {
+    color: #000 !important;
+}
+
+.custom-date-range-picker .rdrDefinedRangesWrapper .rdrStaticRangeLabel:hover,
+.custom-date-range-picker .rdrDefinedRangesWrapper .rdrStaticRangeLabel:focus,
+.custom-date-range-picker .rdrDefinedRangesWrapper .rdrStaticRangeLabel.rdrStaticRangeSelected {
+    color: #00a360 !important;
+}
+
+.custom-date-range-picker .rdrCalendarWrapper,
+.custom-date-range-picker .rdrMonthAndYearPickers,
+.custom-date-range-picker .rdrMonthPicker,
+.custom-date-range-picker .rdrYearPicker,
+.custom-date-range-picker .rdrDayNumber,
+.custom-date-range-picker .rdrDayNumber span {
+    color: #000;
+}
+
+.custom-date-range-picker .rdrSelected,
+.custom-date-range-picker .rdrStartEdge,
+.custom-date-range-picker .rdrEndEdge,
+.custom-date-range-picker .rdrInRange {
+    background-color: #00a360 !important;
+    border-radius: 12px;
+}
+
+
+.custom-date-range-picker {
+    border-radius: 12px;
+    overflow: hidden;
+}
