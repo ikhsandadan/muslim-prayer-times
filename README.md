@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **Muslim Prayer Times Project**
 
-## Getting Started
+For the StackUp August Coding Challenge, I have created an application to assist Muslim worshippers in performing their religious duties more conveniently.
 
-First, run the development server:
+This project is built using Rust as the backend and NextJS with [Tauri](https://tauri.app/) as the frontend. I will provide a detailed explanation of each page:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![1](https://github.com/user-attachments/assets/46f133e5-8d82-49e4-ab98-f101992dc90a)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**1**. **Home**
+   On this page, the user can see the current date and the Islamic calendar date. It also displays the nearest upcoming prayer time based on the user's location, along with a translation of a verse from the Quran. Additionally, there is a button for the user to indicate whether they have performed the prayer at the scheduled time.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+![2](https://github.com/user-attachments/assets/5627e19d-65e6-4cb3-8ae0-afa063f26d99)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![3](https://github.com/user-attachments/assets/c18dd382-24e0-4fc2-85ca-361729622680)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+**2.** **Quran**
+   This page allows the user to view the entire Quran, including all surahs and verses, with their translations. Users can also listen to each verse as desired.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![6](https://github.com/user-attachments/assets/009d352f-de2e-43c4-a20f-94b4a4aa9d13)
+
+![4](https://github.com/user-attachments/assets/e78aae88-7954-42a5-8b29-64d574d17972)
+
+![5](https://github.com/user-attachments/assets/ed065c51-6c9a-4fa8-aaa2-61016233ee92)
+
+
+**3.** **Calendar**
+   On this page, the user can view the Gregorian calendar and check their prayer record for each day. It also displays Islamic holidays and events.
+
+
+![7](https://github.com/user-attachments/assets/ac3ffb96-9f90-4ea3-b624-176ae991f482)
+
+![8](https://github.com/user-attachments/assets/5c8b1331-8a4a-4786-9f7d-c07ff045aac4)
+
+![9](https://github.com/user-attachments/assets/c664b2ad-57c0-4031-b06d-4069a6f037c6)
+
+**4.** **Statistics**
+   This page presents all the user's prayer records stored in the database, which can be viewed according to the user's preferences, such as today, yesterday, this week, last week, this month, last month, or a custom date range.
+
+
+
+The entire backend of this application is built using Rust, and it is called by NextJS using Tauri. For example:
+
+
+![kode](https://github.com/user-attachments/assets/c3da3a5a-c992-4ed6-abbd-61816472270f)
+
+
+To display the prayer record chart on the Statistics page, I have also used Rust to draw heatmap charts using SVG format.
+
+The full Rust code can be viewed at this [link](https://github.com/ikhsandadan/muslim-prayer-times/tree/main/src-tauri/src).
+
+This application can be fully executed on Windows, as the output is in the ".exe" format, which can be downloaded from this [link](https://github.com/ikhsandadan/muslim-prayer-times/releases/tag/app).
+
+Finally, here is a demo video showcasing the usage of this application: 
+
+
+[![muslim-prayer-times-demo](https://img.youtube.com/vi/r55FrQ3CvtU/0.jpg)](https://www.youtube.com/watch?v=r55FrQ3CvtU)
