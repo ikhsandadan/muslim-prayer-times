@@ -9,6 +9,7 @@ This project is built using Rust as the backend and NextJS with [Tauri](https://
 
 
 **1**. **Home**
+
    On this page, the user can see the current date and the Islamic calendar date. It also displays the nearest upcoming prayer time based on the user's location, along with a translation of a verse from the Quran. Additionally, there is a button for the user to indicate whether they have performed the prayer at the scheduled time.
 
 
