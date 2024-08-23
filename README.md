@@ -8,7 +8,7 @@ This project is built using Rust as the backend and NextJS with [Tauri](https://
 ![1](https://github.com/user-attachments/assets/46f133e5-8d82-49e4-ab98-f101992dc90a)
 
 
-**1**. **Home**
+## **1**. **Home**
 
    On this page, the user can see the current date and the Islamic calendar date. It also displays the nearest upcoming prayer time based on the user's location, along with a translation of a verse from the Quran. Additionally, there is a button for the user to indicate whether they have performed the prayer at the scheduled time.
 
@@ -18,7 +18,7 @@ This project is built using Rust as the backend and NextJS with [Tauri](https://
 ![3](https://github.com/user-attachments/assets/c18dd382-24e0-4fc2-85ca-361729622680)
 
 
-**2.** **Quran**
+## **2.** **Quran**
 
    This page allows the user to view the entire Quran, including all surahs and verses, with their translations. Users can also listen to each verse as desired.
 
@@ -30,7 +30,7 @@ This project is built using Rust as the backend and NextJS with [Tauri](https://
 ![5](https://github.com/user-attachments/assets/ed065c51-6c9a-4fa8-aaa2-61016233ee92)
 
 
-**3.** **Calendar**
+## **3.** **Calendar**
 
    On this page, the user can view the Gregorian calendar and check their prayer record for each day. It also displays Islamic holidays and events.
 
@@ -41,7 +41,7 @@ This project is built using Rust as the backend and NextJS with [Tauri](https://
 
 ![9](https://github.com/user-attachments/assets/c664b2ad-57c0-4031-b06d-4069a6f037c6)
 
-**4.** **Statistics**
+## **4.** **Statistics**
 
    This page presents all the user's prayer records stored in the database, which can be viewed according to the user's preferences, such as today, yesterday, this week, last week, this month, last month, or a custom date range.
 
