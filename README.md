@@ -19,6 +19,7 @@ This project is built using Rust as the backend and NextJS with [Tauri](https://
 
 
 **2.** **Quran**
+
    This page allows the user to view the entire Quran, including all surahs and verses, with their translations. Users can also listen to each verse as desired.
 
 
@@ -30,6 +31,7 @@ This project is built using Rust as the backend and NextJS with [Tauri](https://
 
 
 **3.** **Calendar**
+
    On this page, the user can view the Gregorian calendar and check their prayer record for each day. It also displays Islamic holidays and events.
 
 
@@ -40,6 +42,7 @@ This project is built using Rust as the backend and NextJS with [Tauri](https://
 ![9](https://github.com/user-attachments/assets/c664b2ad-57c0-4031-b06d-4069a6f037c6)
 
 **4.** **Statistics**
+
    This page presents all the user's prayer records stored in the database, which can be viewed according to the user's preferences, such as today, yesterday, this week, last week, this month, last month, or a custom date range.
 
 
